@@ -115,7 +115,7 @@ export const WhyChooseUs: React.FC = () => {
           <div className="relative z-10 grid grid-cols-2 md:grid-cols-4 gap-6 lg:gap-8 divide-y-2 md:divide-y-0 md:divide-x divide-gold/20 text-center">
             <div className="flex flex-col items-center justify-center px-4">
               <span className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-gold-light tracking-tight">
-                25+
+                10+
               </span>
               <span className="text-xs sm:text-sm uppercase tracking-wider text-cream-200 mt-1 font-medium">
                 Years of Legacy
