@@ -125,7 +125,14 @@ export const Footer: React.FC = () => {
                 <div className="w-6 h-6 rounded-full flex items-center justify-center shrink-0 mt-0.5 text-[#7A1C1C]">
                   <MapPin className="w-4 h-4 stroke-[1.8]" />
                 </div>
-                <span className="leading-snug">Gangni, Badkulla Nadia,<br />Pin 741121</span>
+                <a
+                  href="https://maps.app.goo.gl/xA2Wn2DNz4u1EHQf9?g_st=aw"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="leading-snug hover:text-[#7A1C1C] transition-colors"
+                >
+                  Gangni, Badkulla Nadia,<br />Pin 741121
+                </a>
               </li>
 
               {/* Phone */}

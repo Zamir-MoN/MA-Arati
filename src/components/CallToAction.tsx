@@ -19,9 +19,9 @@ import { MandalaOrnament } from './decorative/MandalaOrnament';
 export const CallToAction: React.FC = () => {
   const [copied, setCopied] = useState(false);
   const addressText = 'Gangni, Badkulla Nadia, West Bengal — 741121';
-  const mapsUrl = 'https://www.google.com/maps/search/?api=1&query=Gangni+Badkulla+Nadia+741121';
+  const mapsUrl = 'https://maps.app.goo.gl/xA2Wn2DNz4u1EHQf9?g_st=aw';
   const embedMapUrl =
-    'https://maps.google.com/maps?q=Gangni%2C%20Badkulla%2C%20Nadia%2C%20West%20Bengal%20741121&t=&z=14&ie=UTF8&iwloc=&output=embed';
+    'https://maps.google.com/maps?q=Ma%20arati%20Enterprise%2C%20Badkulla%2C%20Nadia&t=&z=15&ie=UTF8&iwloc=&output=embed';
 
   const handleCopyAddress = () => {
     navigator.clipboard.writeText(addressText);
