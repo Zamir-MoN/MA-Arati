@@ -40,7 +40,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
       `*Details:* ${product.description}\n\n` +
       `Hello, I would like to inquire about fabric availability, wholesale pricing, and roll dimensions.`
     );
-    window.open(`https://wa.me/918597895039?text=${text}`, '_blank');
+    window.open(`https://wa.me/91XXXXXXXXXX?text=${text}`, '_blank');
   };
 
   return (

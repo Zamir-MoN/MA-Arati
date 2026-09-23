@@ -88,16 +88,16 @@ export const CallToAction: React.FC = () => {
                       Phone & Wholesale Hotline
                     </span>
                     <a
-                      href="tel:+918597895039"
+                      href="tel:+91XXXXXXXXXX"
                       className="text-[15px] sm:text-base font-sans font-bold tracking-wide text-cream-50 hover:text-gold-light transition-colors leading-none mt-1 block tabular-nums"
                     >
-                      +91 8597895039
+                      +91 XXXXXXXXXX
                     </a>
                   </div>
                 </div>
 
                 <a
-                  href="tel:+918597895039"
+                  href="tel:+91XXXXXXXXXX"
                   className="px-3 py-1.5 rounded-full bg-gold/20 hover:bg-gold/30 border border-gold/40 text-gold-light text-xs font-semibold shrink-0 flex items-center gap-1 transition-all"
                 >
                   <span>Call</span>
@@ -123,18 +123,18 @@ export const CallToAction: React.FC = () => {
                       </span>
                     </div>
                     <a
-                      href="https://wa.me/918597895039?text=Hello%20MA%20ARATI%20ENTERPRISE%2C%20I%20would%20like%20to%20get%20information%20about%20event%20fabrics."
+                      href="https://wa.me/91XXXXXXXXXX?text=Hello%20MA%20ARATI%20ENTERPRISE%2C%20I%20would%20like%20to%20get%20information%20about%20event%20fabrics."
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-[15px] sm:text-base font-sans font-bold tracking-wide text-cream-50 hover:text-emerald-300 transition-colors leading-none mt-1 block tabular-nums"
                     >
-                      +91 8597895039
+                      +91 XXXXXXXXXX
                     </a>
                   </div>
                 </div>
 
                 <a
-                  href="https://wa.me/918597895039?text=Hello%20MA%20ARATI%20ENTERPRISE%2C%20I%20would%20like%20to%20get%20information%20about%20event%20fabrics."
+                  href="https://wa.me/91XXXXXXXXXX?text=Hello%20MA%20ARATI%20ENTERPRISE%2C%20I%20would%20like%20to%20get%20information%20about%20event%20fabrics."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-3 py-1.5 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-semibold shrink-0 flex items-center gap-1 transition-all"
@@ -280,7 +280,7 @@ export const CallToAction: React.FC = () => {
                 <div className="flex items-center gap-2">
 
                   <a
-                    href="https://wa.me/918597895039?text=Hello%20MA%20ARATI%20ENTERPRISE%2C%20I%20would%20like%20to%20inquire%20about%20event%20fabrics."
+                    href="https://wa.me/91XXXXXXXXXX?text=Hello%20MA%20ARATI%20ENTERPRISE%2C%20I%20would%20like%20to%20inquire%20about%20event%20fabrics."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-3 py-1.5 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-[11px] transition-all flex items-center gap-1 border border-emerald-400/40"
@@ -316,13 +316,13 @@ export const CallToAction: React.FC = () => {
             <span>Immediate wholesale quotes & festival dispatch available across India.</span>
           </div>
           <div className="flex items-center gap-3 font-semibold text-gold-light text-[11px]">
-            <a href="tel:+918597895039" className="hover:underline flex items-center gap-1">
+            <a href="tel:+91XXXXXXXXXX" className="hover:underline flex items-center gap-1">
               <Phone className="w-3 h-3" />
-              <span>+91 8597895039</span>
+              <span>+91 XXXXXXXXXX</span>
             </a>
             <span className="text-gold/40">•</span>
             <a
-              href="https://wa.me/918597895039"
+              href="https://wa.me/91XXXXXXXXXX"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:underline flex items-center gap-1 text-emerald-300"

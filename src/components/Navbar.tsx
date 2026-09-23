@@ -37,8 +37,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onMenuToggle }) => {
   }));
 
   const staggeredSocials = [
-    { label: 'WhatsApp', link: 'https://wa.me/918597895039' },
-    { label: 'Call Us', link: 'tel:+918597895039' },
+    { label: 'WhatsApp', link: 'https://wa.me/91XXXXXXXXXX' },
+    { label: 'Call Us', link: 'tel:+91XXXXXXXXXX' },
     { label: 'Facebook', link: 'https://www.facebook.com/share/1BvHSxt5T3/' },
   ];
 

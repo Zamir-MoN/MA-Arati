@@ -15,18 +15,18 @@ export const TopMiniBar: React.FC = () => {
         {/* Right Contact & Socials */}
         <div className="flex items-center gap-2.5 sm:gap-4 text-cream-100">
           <a
-            href="tel:+918597895039"
+            href="tel:+91XXXXXXXXXX"
             className="flex items-center gap-1.5 hover:text-gold transition-colors font-medium"
           >
             <Phone className="w-3 h-3 text-gold-light shrink-0" />
-            <span className="text-[10px] sm:text-[11px] tracking-wide">Call Us: +91 8597895039</span>
+            <span className="text-[10px] sm:text-[11px] tracking-wide">Call Us: +91 XXXXXXXXXX</span>
           </a>
 
           <span className="h-3.5 w-px bg-white/25 inline-block" />
 
           <div className="flex items-center gap-2">
             <a
-              href="https://wa.me/918597895039?text=Hello%20MA%20ARATI%20ENTERPRISE%2C%20I%20would%20like%20to%20inquire%20about%20tent%20and%20event%20fabrics."
+              href="https://wa.me/91XXXXXXXXXX?text=Hello%20MA%20ARATI%20ENTERPRISE%2C%20I%20would%20like%20to%20inquire%20about%20tent%20and%20event%20fabrics."
               target="_blank"
               rel="noopener noreferrer"
               aria-label="WhatsApp"

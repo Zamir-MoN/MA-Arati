@@ -134,10 +134,10 @@ export const Footer: React.FC = () => {
                   <Phone className="w-4 h-4 stroke-[1.8]" />
                 </div>
                 <a
-                  href="tel:+918597895039"
+                  href="tel:+91XXXXXXXXXX"
                   className="hover:text-[#7A1C1C] transition-colors font-medium"
                 >
-                  +91 8597895039
+                  +91 XXXXXXXXXX
                 </a>
               </li>
 
@@ -159,7 +159,7 @@ export const Footer: React.FC = () => {
             <div className="flex items-center gap-3 mt-6 pt-1">
               {/* WhatsApp */}
               <a
-                href="https://wa.me/918597895039"
+                href="https://wa.me/91XXXXXXXXXX"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="WhatsApp"

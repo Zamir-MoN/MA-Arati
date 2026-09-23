@@ -94,7 +94,7 @@ export function App() {
 
       {/* FLOATING WHATSAPP BUTTON (Automatically hidden when mobile navigation menu is open) */}
       <a
-        href="https://wa.me/918597895039?text=Hello%20MA%20ARATI%20ENTERPRISE%2C%20I%20would%20like%20to%20inquire%20about%20your%20tent%20and%20event%20fabrics."
+        href="https://wa.me/91XXXXXXXXXX?text=Hello%20MA%20ARATI%20ENTERPRISE%2C%20I%20would%20like%20to%20inquire%20about%20your%20tent%20and%20event%20fabrics."
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Direct WhatsApp Chat"
