@@ -89,7 +89,7 @@ export const CallToAction: React.FC = () => {
                     </span>
                     <a
                       href="tel:+918597895039"
-                      className="text-base font-serif font-bold text-cream-50 hover:text-gold-light transition-colors leading-none mt-0.5 block"
+                      className="text-[15px] sm:text-base font-sans font-bold tracking-wide text-cream-50 hover:text-gold-light transition-colors leading-none mt-1 block tabular-nums"
                     >
                       +91 8597895039
                     </a>
@@ -126,7 +126,7 @@ export const CallToAction: React.FC = () => {
                       href="https://wa.me/918597895039?text=Hello%20MA%20ARATI%20ENTERPRISE%2C%20I%20would%20like%20to%20get%20information%20about%20event%20fabrics."
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-base font-serif font-bold text-cream-50 hover:text-emerald-300 transition-colors leading-none mt-0.5 block"
+                      className="text-[15px] sm:text-base font-sans font-bold tracking-wide text-cream-50 hover:text-emerald-300 transition-colors leading-none mt-1 block tabular-nums"
                     >
                       +91 8597895039
                     </a>
