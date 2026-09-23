@@ -3,11 +3,7 @@ import { ArrowRight, Truck, Award, Users } from 'lucide-react';
 import { OrnamentalCorner } from './decorative/OrnamentalCorner';
 import gsap from 'gsap';
 
-interface HeroProps {
-  onOpenQuote: () => void;
-}
-
-export const Hero: React.FC<HeroProps> = ({ onOpenQuote }) => {
+export const Hero: React.FC = () => {
   const heroRef = useRef<HTMLDivElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
 
@@ -36,7 +32,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenQuote }) => {
       <div
         className="hidden md:block absolute inset-0 w-full h-full bg-cover bg-center pointer-events-none"
         style={{
-          backgroundImage: "url('/images/landing_hero_bg.png')",
+          backgroundImage: "url('/images/landing_hero_bg.webp')",
         }}
       />
 
@@ -44,7 +40,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenQuote }) => {
       <div
         className="md:hidden absolute inset-0 w-full h-full bg-cover bg-[position:0%_0%] pointer-events-none"
         style={{
-          backgroundImage: "url('/images/landing_hero_mobile_bg.png')",
+          backgroundImage: "url('/images/landing_hero_mobile_bg.webp')",
         }}
       />
 
@@ -79,8 +75,10 @@ export const Hero: React.FC<HeroProps> = ({ onOpenQuote }) => {
       {/* 3. MANDALA CORNER ORNAMENT (DESKTOP ONLY) */}
       <div className="hidden sm:block absolute top-0 left-0 h-[64%] max-h-[460px] pointer-events-none z-10 select-none overflow-hidden opacity-75">
         <img
-          src="/images/left_ornament.png"
+          src="/images/left_ornament.webp"
           alt=""
+          loading="eager"
+          decoding="async"
           className="h-full w-auto object-contain object-left-top"
         />
       </div>
@@ -91,7 +89,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenQuote }) => {
       </div>
 
       {/* 5. MAIN HERO CONTENT */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 w-full flex-1 flex flex-col justify-between pt-20 md:pt-8 lg:pt-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 w-full flex-1 flex flex-col justify-between pt-3 sm:pt-4 md:pt-6 lg:pt-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-center my-auto">
           {/* Left Column: Text & CTAs */}
           <div
@@ -135,16 +133,16 @@ export const Hero: React.FC<HeroProps> = ({ onOpenQuote }) => {
                 </span>
               </a>
 
-              {/* Secondary button: Cream pill with burgundy outline and circular arrow with ring */}
-              <button
-                onClick={onOpenQuote}
+              {/* Secondary button: Cream pill linking to Contact section */}
+              <a
+                href="#contact"
                 className="group px-6 py-2.5 sm:py-3 rounded-full bg-[#FFFDF9] hover:bg-[#FBF6ED] text-[#5D0C0E] border-[1.5px] border-[#5D0C0E] text-[12px] font-bold tracking-[0.06em] uppercase transition-all duration-300 shadow-xs hover:shadow-sm flex items-center justify-between sm:justify-center gap-3"
               >
-                <span>GET A QUOTE</span>
+                <span>CONTACT US</span>
                 <span className="w-6 h-6 sm:w-7 sm:h-7 rounded-full border border-[#5D0C0E] bg-white flex items-center justify-center shrink-0 group-hover:translate-x-0.5 transition-transform">
                   <ArrowRight className="w-3.5 h-3.5 text-[#5D0C0E] stroke-[2.2]" />
                 </span>
-              </button>
+              </a>
             </div>
           </div>
 

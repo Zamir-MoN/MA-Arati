@@ -8,61 +8,61 @@ const galleryItems: GalleryItem[] = [
     id: 'gallery-1',
     title: 'Grand Entrance & Walkway Drapery',
     tag: 'Royal Setup',
-    image: '/images/gallery/gallery_item_1.jpg',
+    image: '/images/gallery/gallery_item_1.webp',
   },
   {
     id: 'gallery-2',
     title: 'Ceiling Canopy & Chandelier Drapery',
     tag: 'Ceiling Decor',
-    image: '/images/gallery/gallery_item_2.jpg',
+    image: '/images/gallery/gallery_item_2.webp',
   },
   {
     id: 'gallery-3',
     title: 'Mandap Floral & Fabric Architecture',
     tag: 'Mandap Setup',
-    image: '/images/gallery/gallery_item_3.jpg',
+    image: '/images/gallery/gallery_item_3.webp',
   },
   {
     id: 'gallery-4',
     title: 'Banquet Hall Round Table Setting',
     tag: 'Banquet Decor',
-    image: '/images/gallery/gallery_item_4.jpg',
+    image: '/images/gallery/gallery_item_4.webp',
   },
   {
     id: 'gallery-5',
     title: 'Illuminated Floral Aisle Walkway',
     tag: 'Aisle Setup',
-    image: '/images/gallery/gallery_item_5.jpg',
+    image: '/images/gallery/gallery_item_5.webp',
   },
   {
     id: 'gallery-6',
     title: 'VIP Lounge & Luxurious Sofa Seating',
     tag: 'Lounge Decor',
-    image: '/images/gallery/gallery_item_6.jpg',
+    image: '/images/gallery/gallery_item_6.webp',
   },
   {
     id: 'gallery-7',
     title: 'Open Pavilion Lounge & Tent Setup',
     tag: 'Tent Setup',
-    image: '/images/gallery/gallery_item_7.jpg',
+    image: '/images/gallery/gallery_item_7.webp',
   },
   {
     id: 'gallery-8',
     title: 'Royal Stage Backdrop with Warm Lights',
     tag: 'Stage Setup',
-    image: '/images/gallery/gallery_item_8.jpg',
+    image: '/images/gallery/gallery_item_8.webp',
   },
   {
     id: 'gallery-9',
     title: 'Table Centerpiece & Glassware Setting',
     tag: 'Table Styling',
-    image: '/images/gallery/gallery_item_9.jpg',
+    image: '/images/gallery/gallery_item_9.webp',
   },
   {
     id: 'gallery-10',
     title: 'Embroidered Lace & Decorative Fabrics',
     tag: 'Premium Fabric',
-    image: '/images/gallery/gallery_item_10.jpg',
+    image: '/images/gallery/gallery_item_10.webp',
   },
 ];
 
@@ -91,8 +91,10 @@ export const Gallery: React.FC = () => {
       {/* Top Left Golden Botanical Corner Ornament */}
       <div className="absolute top-0 left-0 pointer-events-none z-0 hidden md:block select-none overflow-hidden w-[180px] sm:w-[220px] md:w-[250px] lg:w-[280px] max-w-[25vw] opacity-75">
         <img
-          src="/images/footer_corner_ornament.png"
+          src="/images/footer_corner_ornament.webp"
           alt=""
+          loading="lazy"
+          decoding="async"
           className="w-full h-auto object-contain object-left-top -scale-y-100 -scale-x-100"
         />
       </div>
@@ -100,8 +102,10 @@ export const Gallery: React.FC = () => {
       {/* Top Right Golden Botanical Corner Ornament */}
       <div className="absolute top-0 right-0 pointer-events-none z-0 hidden md:block select-none overflow-hidden w-[180px] sm:w-[220px] md:w-[250px] lg:w-[280px] max-w-[25vw] opacity-75">
         <img
-          src="/images/footer_corner_ornament.png"
+          src="/images/footer_corner_ornament.webp"
           alt=""
+          loading="lazy"
+          decoding="async"
           className="w-full h-auto object-contain object-right-top -scale-y-100"
         />
       </div>
@@ -155,6 +159,7 @@ export const Gallery: React.FC = () => {
               alt={galleryItems[0].title}
               className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
               loading="lazy"
+              decoding="async"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             <div className="absolute bottom-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -174,6 +179,7 @@ export const Gallery: React.FC = () => {
               alt={galleryItems[1].title}
               className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
               loading="lazy"
+              decoding="async"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             <div className="absolute bottom-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -193,6 +199,7 @@ export const Gallery: React.FC = () => {
               alt={galleryItems[2].title}
               className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
               loading="lazy"
+              decoding="async"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             <div className="absolute bottom-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -214,6 +221,7 @@ export const Gallery: React.FC = () => {
                 alt={galleryItems[3].title}
                 className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                 loading="lazy"
+              decoding="async"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <div className="absolute bottom-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -233,6 +241,7 @@ export const Gallery: React.FC = () => {
                 alt={galleryItems[4].title}
                 className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                 loading="lazy"
+              decoding="async"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <div className="absolute bottom-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -252,6 +261,7 @@ export const Gallery: React.FC = () => {
                 alt={galleryItems[5].title}
                 className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                 loading="lazy"
+              decoding="async"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <div className="absolute bottom-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -273,6 +283,7 @@ export const Gallery: React.FC = () => {
               alt={galleryItems[6].title}
               className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
               loading="lazy"
+              decoding="async"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             <div className="absolute bottom-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -292,6 +303,7 @@ export const Gallery: React.FC = () => {
               alt={galleryItems[7].title}
               className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
               loading="lazy"
+              decoding="async"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             <div className="absolute bottom-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -311,6 +323,7 @@ export const Gallery: React.FC = () => {
               alt={galleryItems[8].title}
               className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
               loading="lazy"
+              decoding="async"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             <div className="absolute bottom-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -334,6 +347,7 @@ export const Gallery: React.FC = () => {
                 alt={item.title}
                 className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
                 loading="lazy"
+              decoding="async"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <div className="absolute bottom-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">

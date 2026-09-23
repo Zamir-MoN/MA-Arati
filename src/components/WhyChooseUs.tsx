@@ -47,8 +47,10 @@ export const WhyChooseUs: React.FC = () => {
       <div className="hanging-mandala-crest absolute -top-[1px] left-1/2 -translate-x-1/2 z-20 pointer-events-none select-none flex flex-col items-center">
         <div className="w-56 sm:w-72 md:w-88 lg:w-96 rotate-180 drop-shadow-md">
           <img
-            src="/images/arch_mandala_crest.png"
+            src="/images/arch_mandala_crest.webp"
             alt=""
+            loading="lazy"
+            decoding="async"
             className="w-full h-auto object-contain mx-auto"
           />
         </div>

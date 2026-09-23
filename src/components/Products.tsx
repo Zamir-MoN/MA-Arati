@@ -28,14 +28,14 @@ const topFeaturedCards = [
     badgeText: 'FEATURED —',
     title: 'Premium Pandal Fabric',
     description: 'High-quality fabrics for elegant event setups.',
-    image: '/images/cards/card_2.png',
+    image: '/images/cards/card_2.webp',
   },
   {
     id: 'net-fabric-featured',
     badgeText: 'POPULAR —',
     title: 'Premium Net Fabric',
     description: 'Stylish, durable and perfect for modern decorations.',
-    image: '/images/cards/card_3.png',
+    image: '/images/cards/card_3.webp',
   },
 ];
 
@@ -46,7 +46,7 @@ const allTwelveCards: ProductItem[] = [
     title: 'White & Magenta Floral Sequin',
     category: 'Celebration Pandal Fabric',
     description: 'Crinkle celebration fabric with vibrant magenta floral trellis & golden sequins.',
-    image: '/images/cards/card_1.png',
+    image: '/images/cards/card_1.webp',
     badge: 'Bestseller',
     icon: <Flower2 className="w-4 h-4 stroke-[1.8]" />,
     features: [
@@ -62,7 +62,7 @@ const allTwelveCards: ProductItem[] = [
     title: 'Golden Royal Sequin Fabric',
     category: 'Pandal & Stage Fabric',
     description: 'Lustrous yellow silk with diamond-lattice sequin embroidery & floral accents.',
-    image: '/images/cards/card_2.png',
+    image: '/images/cards/card_2.webp',
     badge: 'Popular',
     icon: <Sparkles className="w-4 h-4 stroke-[1.8]" />,
     features: [
@@ -78,7 +78,7 @@ const allTwelveCards: ProductItem[] = [
     title: 'Pink Rose Garden Net Fabric',
     category: 'Sheer Event Drapery',
     description: 'Delicate sheer net fabric with pastel floral threadwork & scalloped border.',
-    image: '/images/cards/card_3.png',
+    image: '/images/cards/card_3.webp',
     badge: 'Luxury',
     icon: <Layers className="w-4 h-4 stroke-[1.8]" />,
     features: [
@@ -91,10 +91,10 @@ const allTwelveCards: ProductItem[] = [
   },
   {
     id: 'card-4',
-    title: 'Marigold Border Net Fabric',
+    title: 'Ceiling Net',
     category: 'Festive Pandal Net',
     description: 'Pure white net with festive orange & yellow embroidered floral borders.',
-    image: '/images/cards/card_4.png',
+    image: '/images/cards/card_4.webp',
     badge: 'Traditional',
     icon: <Award className="w-4 h-4 stroke-[1.8]" />,
     features: [
@@ -107,10 +107,10 @@ const allTwelveCards: ProductItem[] = [
   },
   {
     id: 'card-5',
-    title: 'Diamond Blossom Heritage Fabric',
+    title: 'Taiwan Print',
     category: 'Heritage Tent Fabric',
     description: 'Geometric diamond lattice with vivid pink blossoms and olive green borders.',
-    image: '/images/cards/card_5.png',
+    image: '/images/cards/card_5.webp',
     badge: 'Exclusive',
     icon: <Gem className="w-4 h-4 stroke-[1.8]" />,
     features: [
@@ -123,10 +123,10 @@ const allTwelveCards: ProductItem[] = [
   },
   {
     id: 'card-6',
-    title: 'Rainbow Ombre Drape Fabric',
+    title: 'Loadshedding Galaxy',
     category: 'Modern Theme Fabric',
     description: 'Vibrant multi-hued pastel rainbow sheer drape with embroidered floral sprigs.',
-    image: '/images/cards/card_6.png',
+    image: '/images/cards/card_6.webp',
     badge: 'Trending',
     icon: <Palette className="w-4 h-4 stroke-[1.8]" />,
     features: [
@@ -142,7 +142,7 @@ const allTwelveCards: ProductItem[] = [
     title: 'Peach Botanical Leaf Net',
     category: 'Designer Mandap Net',
     description: 'Sheer ivory net with delicate peach vine embroidery for mandap canopies.',
-    image: '/images/cards/card_7.png',
+    image: '/images/cards/card_7.webp',
     badge: 'Botanical',
     icon: <Leaf className="w-4 h-4 stroke-[1.8]" />,
     features: [
@@ -158,7 +158,7 @@ const allTwelveCards: ProductItem[] = [
     title: 'Rani Pink Velvet Sequin Fabric',
     category: 'Luxury Royal Velvet',
     description: 'Rich rani pink celebration fabric with golden trellis work and flower sequins.',
-    image: '/images/cards/card_8.png',
+    image: '/images/cards/card_8.webp',
     badge: 'Royal',
     icon: <Crown className="w-4 h-4 stroke-[1.8]" />,
     features: [
@@ -171,10 +171,10 @@ const allTwelveCards: ProductItem[] = [
   },
   {
     id: 'card-9',
-    title: 'Blush Garden Arch Drape',
+    title: 'Ceiling Net (Pink Floral)',
     category: 'Ceiling & Arch Fabric',
     description: 'Graceful sheer white cloth with pink flower bouquets and scalloped edging.',
-    image: '/images/cards/card_9.png',
+    image: '/images/cards/card_9.webp',
     badge: 'Wedding Special',
     icon: <Heart className="w-4 h-4 stroke-[1.8]" />,
     features: [
@@ -190,7 +190,7 @@ const allTwelveCards: ProductItem[] = [
     title: 'White Trellis Sequin Fabric',
     category: 'Signature Sequin Fabric',
     description: 'Lattice sequin embroidery with magenta rosettes on premium white cloth.',
-    image: '/images/cards/card_10.png',
+    image: '/images/cards/card_10.webp',
     badge: 'Classic',
     icon: <Sparkles className="w-4 h-4 stroke-[1.8]" />,
     features: [
@@ -206,7 +206,7 @@ const allTwelveCards: ProductItem[] = [
     title: 'Haldi Mustard Sequin Fabric',
     category: 'Ceremonial Fabric',
     description: 'Festive mustard yellow fabric with shimmering diamond sequence work.',
-    image: '/images/cards/card_11.png',
+    image: '/images/cards/card_11.webp',
     badge: 'Haldi Special',
     icon: <Sun className="w-4 h-4 stroke-[1.8]" />,
     features: [
@@ -222,7 +222,7 @@ const allTwelveCards: ProductItem[] = [
     title: 'Illuminated Canopy Ceiling Drape',
     category: 'Canopy & Ceiling Drape',
     description: 'Embroidered leaf vines on scalloped canopy cloth with ambient light rolls.',
-    image: '/images/cards/card_12.png',
+    image: '/images/cards/card_12.webp',
     badge: 'Ceiling Special',
     icon: <Lightbulb className="w-4 h-4 stroke-[1.8]" />,
     features: [
@@ -231,6 +231,68 @@ const allTwelveCards: ProductItem[] = [
       'Reinforced grommets and edging for secure rigging at heights',
       'Lightweight yet tough tensile fabric prevents sagging over wide spans',
       'Tested and certified for professional tent and decorator requirements',
+    ],
+  },
+  {
+    id: 'card-13',
+    title: 'Bright Lycra',
+    category: 'Stretch Event Fabric',
+    description: 'Ultra-stretch, wrinkle-free bright magenta lycra fabric for grand ceiling drapes, pillar wraps & stage backdrops.',
+    image: '/images/cards/card_bright_lycra.webp',
+    badge: 'Popular',
+    icon: <Sparkles className="w-4 h-4 stroke-[1.8]" />,
+    features: [
+      'Four-way premium stretch elasticity ensuring taut, wrinkle-free installation',
+      'Vibrant bright magenta celebration hue engineered for dazzling event lights',
+      'Smooth matte micro-ribbed surface providing deep, non-reflective elegance',
+      'Heavy drape and shape recovery that resists sagging across large ceiling spans',
+      'Supplied in continuous bulk rolls with custom cutting support from Nadia warehouse',
+    ],
+  },
+  {
+    id: 'card-14',
+    title: 'Plain Taiwan',
+    category: 'All-Color Event Drapery',
+    description: 'Graceful Plain Taiwan fabric available in all colors for pandal ceilings, backdrop draping & decorative partitions.',
+    image: '/images/cards/card_plain_taiwan.webp',
+    badge: 'All Colors Available',
+    icon: <Palette className="w-4 h-4 stroke-[1.8]" />,
+    features: [
+      'Available in all vibrant & pastel event colors upon wholesale request',
+      'Fluid, graceful drape with elegant swirl texture ideal for ceiling swags',
+      'Crease-resistant and durable construction designed for repeated event setups',
+      'High colorfastness formulated to withstand intensive halogen & LED stage lighting',
+      'Wholesale bulk bolt packaging with direct all-India transport dispatch',
+    ],
+  },
+  {
+    id: 'card-15',
+    title: 'Sunflower Galaxy (Yellow)',
+    category: 'Festive Pandal Fabric',
+    description: 'Festive turmeric yellow fabric embroidered with bright magenta and golden sunflower blossoms.',
+    image: '/images/cards/card_sunflower_galaxy_yellow.webp',
+    icon: <Sun className="w-4 h-4 stroke-[1.8]" />,
+    features: [
+      'Auspicious festive turmeric yellow base ideal for Haldi, weddings & puja pandals',
+      'Artfully embroidered dual-tone magenta and golden sunflower medallions',
+      'High-grade wrinkle-resistant celebration cloth engineered for crisp drape',
+      'Colorfast dyes that glow with warmth under halogen and warm stage spotlights',
+      'Wholesale bulk bolt packaging with direct all-India dispatch from Nadia',
+    ],
+  },
+  {
+    id: 'card-16',
+    title: 'Sunflower Galaxy (White)',
+    category: 'Celebration Pandal Fabric',
+    description: 'Crisp white ceremonial fabric featuring radiant pink sunflower blossoms and leafy vines.',
+    image: '/images/cards/card_sunflower_galaxy_white.webp',
+    icon: <Flower2 className="w-4 h-4 stroke-[1.8]" />,
+    features: [
+      'Pure white background fabric with contrasting vibrant pink sunflower embroidery',
+      'Graceful floral vine repeat perfect for entrance gates, mandaps & stage partitions',
+      'Smooth, breathable premium drape quality suited for indoor and outdoor venues',
+      'Durable stitching resistant to tension stress during fast decorator rigging',
+      'Available in standard roll widths with wholesale bulk packaging and cutting support',
     ],
   },
 ];
@@ -244,8 +306,10 @@ export const Products: React.FC<ProductsProps> = ({ onSelectProduct }) => {
       {/* Top Right Corner Golden Mandala & Lotus Drops */}
       <div className="absolute top-0 right-0 pointer-events-none z-0 hidden sm:block select-none overflow-hidden w-[220px] md:w-[280px] lg:w-[320px] max-w-[30vw]">
         <img
-          src="/images/products_top_right_ornament.png"
+          src="/images/products_top_right_ornament.webp"
           alt=""
+          loading="lazy"
+          decoding="async"
           className="w-full h-auto object-contain object-right-top opacity-80"
         />
       </div>
@@ -253,8 +317,10 @@ export const Products: React.FC<ProductsProps> = ({ onSelectProduct }) => {
       {/* Bottom Left Corner Golden Botanical Filigree Ornament (Flipped horizontally right to left & slightly overlapping bottom line) */}
       <div className="absolute -bottom-1.5 sm:-bottom-2.5 left-0 pointer-events-none z-10 select-none w-[140px] sm:w-[190px] md:w-[230px] lg:w-[260px] max-w-[26vw] -scale-x-100 origin-bottom-center">
         <img
-          src="/images/products_bottom_left_ornament.png"
+          src="/images/products_bottom_left_ornament.webp"
           alt=""
+          loading="lazy"
+          decoding="async"
           className="w-full h-auto object-contain object-left-bottom opacity-90 block drop-shadow-sm"
         />
       </div>
@@ -294,6 +360,8 @@ export const Products: React.FC<ProductsProps> = ({ onSelectProduct }) => {
                 <img
                   src={card.image}
                   alt={card.title}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105"
                 />
               </div>
@@ -303,8 +371,10 @@ export const Products: React.FC<ProductsProps> = ({ onSelectProduct }) => {
                 {/* Subtle corner watermark */}
                 <div className="absolute -bottom-6 -right-6 w-24 h-24 pointer-events-none opacity-15">
                   <img
-                    src="/images/products_top_right_ornament.png"
+                    src="/images/products_top_right_ornament.webp"
                     alt=""
+                    loading="lazy"
+                    decoding="async"
                     className="w-full h-full object-contain"
                   />
                 </div>
@@ -326,7 +396,7 @@ export const Products: React.FC<ProductsProps> = ({ onSelectProduct }) => {
                     type="button"
                     className="px-5 py-2 rounded-full bg-[#7D1111] group-hover:bg-burgundy-light text-white text-xs sm:text-[13px] font-bold tracking-wider transition-all duration-300 shadow-sm flex items-center gap-2"
                   >
-                    <span>Get Quote</span>
+                    <span>View Details</span>
                     <ArrowRight className="w-3.5 h-3.5 transition-transform duration-300 group-hover:translate-x-1" />
                   </button>
                 </div>

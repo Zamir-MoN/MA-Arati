@@ -22,13 +22,15 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, onSelect }) =
       onClick={() => onSelect(product)}
       className="group relative cursor-pointer bg-white rounded-xl sm:rounded-2xl overflow-hidden border border-[#E8DDCD] hover:border-gold transition-all duration-300 hover:-translate-y-1.5 shadow-royal-sm hover:shadow-royal aspect-[3/4] w-full select-none"
     >
-      {/* Product Image only */}
+      {/* Product Image */}
       <img
         src={product.image}
         alt={product.title}
         className="w-full h-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105"
         loading="lazy"
+        decoding="async"
       />
+
 
       {/* Persistent elegant button overlay at bottom */}
       <div className="absolute inset-x-0 bottom-0 p-2.5 sm:p-3 bg-gradient-to-t from-black/75 via-black/35 to-transparent flex items-end justify-center transition-all duration-300">

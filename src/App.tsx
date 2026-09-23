@@ -11,7 +11,6 @@ import { WhyChooseUs } from './components/WhyChooseUs';
 import { Gallery } from './components/Gallery';
 import { CallToAction } from './components/CallToAction';
 import { Footer } from './components/Footer';
-import { QuoteModal } from './components/QuoteModal';
 import { ProductDetailModal } from './components/ProductDetailModal';
 import { SimpleLoader } from './components/SimpleLoader';
 import { WhatsAppIcon } from './components/icons/WhatsAppIcon';
@@ -20,9 +19,9 @@ gsap.registerPlugin(ScrollTrigger);
 
 export function App() {
   const [showLoader, setShowLoader] = useState(true);
-  const [quoteModalOpen, setQuoteModalOpen] = useState(false);
   const [detailModalOpen, setDetailModalOpen] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState<ProductItem | null>(null);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   // Initialize Lenis smooth scroll synchronized with GSAP ScrollTrigger
   useEffect(() => {
@@ -52,11 +51,6 @@ export function App() {
     };
   }, []);
 
-  const handleOpenQuote = (product?: ProductItem) => {
-    setSelectedProduct(product || null);
-    setQuoteModalOpen(true);
-  };
-
   const handleOpenDetail = (product: ProductItem) => {
     setSelectedProduct(product);
     setDetailModalOpen(true);
@@ -67,15 +61,20 @@ export function App() {
       {/* SIMPLE WEBSITE OPENING LOADING SCREEN */}
       {showLoader && <SimpleLoader onFinish={() => setShowLoader(false)} />}
 
-      {/* 1. TOP MINI BAR */}
-      <TopMiniBar />
+      {/* PERMANENTLY FIXED HEADER (TopMiniBar + Navbar) */}
+      <header className="fixed top-0 left-0 right-0 z-50 w-full shadow-royal-sm bg-cream-50/98 backdrop-blur-md">
+        {/* 1. TOP MINI BAR */}
+        <TopMiniBar />
 
-      {/* 2. STICKY NAVBAR */}
-      <Navbar onOpenQuote={() => handleOpenQuote()} />
+        {/* 2. NAVBAR */}
+        <Navbar 
+          onMenuToggle={(isOpen) => setMobileMenuOpen(isOpen)}
+        />
+      </header>
 
       {/* 3. HERO SECTION */}
-      <main className="flex-grow">
-        <Hero onOpenQuote={() => handleOpenQuote()} />
+      <main className="flex-grow pt-[84px] sm:pt-[94px]">
+        <Hero />
 
         {/* 4. PRODUCTS SECTION */}
         <Products onSelectProduct={(product) => handleOpenDetail(product)} />
@@ -86,20 +85,22 @@ export function App() {
         {/* 6. EVENT GALLERY WITH LIGHTBOX */}
         <Gallery />
 
-        {/* 7. FULL-WIDTH CALL TO ACTION */}
-        <CallToAction onOpenQuote={() => handleOpenQuote()} />
+        {/* 7. FULL-WIDTH CONTACT / CALL TO ACTION */}
+        <CallToAction />
       </main>
 
       {/* 8. FOOTER */}
       <Footer />
 
-      {/* FLOATING WHATSAPP BUTTON */}
+      {/* FLOATING WHATSAPP BUTTON (Automatically hidden when mobile navigation menu is open) */}
       <a
         href="https://wa.me/918597895039?text=Hello%20MA%20ARATI%20ENTERPRISE%2C%20I%20would%20like%20to%20inquire%20about%20your%20tent%20and%20event%20fabrics."
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Direct WhatsApp Chat"
-        className="fixed bottom-6 right-6 z-40 w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white flex items-center justify-center shadow-royal-lg hover:scale-110 transition-all duration-300 border-2 border-cream-50"
+        className={`fixed bottom-5 right-5 sm:bottom-6 sm:right-6 w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white flex items-center justify-center shadow-royal-lg hover:scale-110 active:scale-95 transition-all duration-300 border-2 border-cream-50 ${
+          mobileMenuOpen ? 'opacity-0 pointer-events-none scale-0 invisible -z-10' : 'opacity-100 scale-100 visible z-[80]'
+        }`}
       >
         <WhatsAppIcon className="w-6 h-6 sm:w-7 sm:h-7" />
       </a>
@@ -109,20 +110,6 @@ export function App() {
         isOpen={detailModalOpen}
         product={selectedProduct}
         onClose={() => setDetailModalOpen(false)}
-        onInquire={(product) => {
-          setDetailModalOpen(false);
-          handleOpenQuote(product);
-        }}
-      />
-
-      {/* QUOTE / INQUIRY MODAL */}
-      <QuoteModal
-        isOpen={quoteModalOpen}
-        initialProduct={selectedProduct}
-        onClose={() => {
-          setQuoteModalOpen(false);
-          setSelectedProduct(null);
-        }}
       />
     </div>
   );

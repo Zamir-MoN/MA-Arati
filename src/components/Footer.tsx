@@ -9,8 +9,10 @@ export const Footer: React.FC = () => {
       {/* LEFT BOTTOM CORNER MANDALA FLOURISH */}
       <div className="absolute bottom-0 left-0 pointer-events-none z-0 select-none w-[160px] sm:w-[220px] md:w-[260px] lg:w-[300px] max-w-[32vw]">
         <img
-          src="/images/footer_corner_ornament.png"
+          src="/images/footer_corner_ornament.webp"
           alt=""
+          loading="lazy"
+          decoding="async"
           className="w-full h-auto object-contain object-left-bottom opacity-85 block -scale-x-100"
         />
       </div>
@@ -18,8 +20,10 @@ export const Footer: React.FC = () => {
       {/* RIGHT BOTTOM CORNER MANDALA FLOURISH (Natural orientation: right edge and bottom edge) */}
       <div className="absolute bottom-0 right-0 pointer-events-none z-0 select-none w-[160px] sm:w-[220px] md:w-[260px] lg:w-[300px] max-w-[32vw]">
         <img
-          src="/images/footer_corner_ornament.png"
+          src="/images/footer_corner_ornament.webp"
           alt=""
+          loading="lazy"
+          decoding="async"
           className="w-full h-auto object-contain object-right-bottom opacity-85 block"
         />
       </div>
@@ -42,8 +46,10 @@ export const Footer: React.FC = () => {
           <div className="footer-col md:col-span-5 md:pr-10 lg:pr-12">
             <div className="flex items-center gap-3.5 mb-5 select-none">
               <img
-                src="/images/brand_logo_trimmed.png"
+                src="/images/brand_logo_trimmed.webp"
                 alt="MA ARATI ENTERPRISE Logo"
+                loading="lazy"
+                decoding="async"
                 className="h-14 sm:h-16 w-auto object-contain drop-shadow-sm"
               />
               <div className="flex flex-col justify-center">
@@ -100,7 +106,7 @@ export const Footer: React.FC = () => {
           </div>
 
           {/* COLUMN 3: CONTACT US */}
-          <div id="contact" className="footer-col md:col-span-4 md:pl-8 lg:pl-10 md:border-l md:border-[#E8DAC2]">
+          <div className="footer-col md:col-span-4 md:pl-8 lg:pl-10 md:border-l md:border-[#E8DAC2]">
             {/* Header + Diamond Sub-line */}
             <div className="mb-6">
               <h4 className="font-serif text-sm sm:text-base font-bold text-[#7A1C1C] uppercase tracking-[0.2em]">
