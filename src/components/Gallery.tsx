@@ -86,7 +86,7 @@ export const Gallery: React.FC = () => {
   return (
     <section
       id="gallery"
-      className="relative py-20 sm:py-28 bg-[#FFFDF7] border-b border-[#EADBCA]/60 overflow-hidden"
+      className="relative py-20 sm:py-28 bg-[#FFFDF7] border-b border-[#EADBCA]/60 overflow-hidden content-auto"
     >
       {/* Top Left Golden Botanical Corner Ornament */}
       <div className="absolute top-0 left-0 pointer-events-none z-0 hidden md:block select-none overflow-hidden w-[180px] sm:w-[220px] md:w-[250px] lg:w-[280px] max-w-[25vw] opacity-75">

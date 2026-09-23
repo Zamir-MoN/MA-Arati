@@ -32,7 +32,7 @@ export const CallToAction: React.FC = () => {
   return (
     <section
       id="contact"
-      className="relative py-10 sm:py-12 bg-gradient-to-b from-[#520B0B] via-[#660F0F] to-[#3D0606] text-cream-50 overflow-hidden border-t border-gold/30 shadow-2xl scroll-mt-20"
+      className="relative py-10 sm:py-12 bg-gradient-to-b from-[#520B0B] via-[#660F0F] to-[#3D0606] text-cream-50 overflow-hidden border-t border-gold/30 shadow-2xl scroll-mt-20 content-auto"
     >
       {/* Background Decorative Ambient Radial Glow */}
       <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(ellipse_80%_60%_at_50%_10%,rgba(200,155,60,0.12),rgba(0,0,0,0))]" />

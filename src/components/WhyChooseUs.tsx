@@ -41,7 +41,7 @@ export const WhyChooseUs: React.FC = () => {
   return (
     <section
       id="about"
-      className="relative pt-28 pb-16 sm:pt-36 md:pt-44 sm:pb-24 bg-cream-50 border-b border-cream-border/60 overflow-visible"
+      className="relative pt-28 pb-16 sm:pt-36 md:pt-44 sm:pb-24 bg-cream-50 border-b border-cream-border/60 overflow-visible content-auto"
     >
       {/* HANGING ARCH MANDALA (Upside down from previous section boundary to current) */}
       <div className="hanging-mandala-crest absolute -top-[1px] left-1/2 -translate-x-1/2 z-20 pointer-events-none select-none flex flex-col items-center">
